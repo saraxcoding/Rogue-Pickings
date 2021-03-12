@@ -1,0 +1,167 @@
+/****** BASE STYLES. REMEMBER THAT IT'S TOP TO BOTTOM, OUTSIDE-IN FROM HTML ******/
+
+body {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+/****** CONTAINER which applies to the whole page ******/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+    padding: 0 30px;
+}
+
+/******* HEADER which includes TITLE OF RESTAURANT and NAV ******/
+
+header {
+    border-bottom: 3px solid #77a466;
+    height: 120px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-size: 30px;
+    margin: 0;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 48px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    color: #77a466;
+    display: inline; /*where the nav moved IN LINE to the header rather than stacked up in the doc flow as a bullet list*/
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+header nav ul li a {
+	color:#77a466;
+    text-decoration: none; /*removes underlining under nav links*/
+}
+
+/****** ABOUT SECTION ******/
+
+.first-section, .second-section {
+    clear: both;
+    margin: 0 auto;
+}
+
+.main-image {
+    float: left;
+    height: auto;
+}
+
+.main-image img {
+    border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+    float: left;
+    height: auto;
+}
+
+.main-title h2 {
+    color: #77a466;
+    padding: 5px 0;
+    text-align: left;
+}
+
+.main-title p {
+    font-size: 16px;
+    line-height: 25px; /*makes the line-height bigger than font size*/
+    padding: 0;
+}
+
+/****** MENU, REVIEWS, CONTACT SECTION ******/
+
+.first-col, .second-col, .third-col {
+    border-top: 1px solid #eeeeee;
+    float: left;
+    height: auto;
+    width: 390px;
+}
+
+.second-col {
+    border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.first-col h3 {
+    padding: 10px 0;
+}
+
+.second-col h3, .third-col h3 {
+    padding: 10px 30px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    color: #77a466;
+    padding: 10px 0; /* spaced out the text lines within list */
+}
+
+.reviews {
+    color: #333;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.address {
+    font-size: 16px;
+	line-height: 25px;
+}
+
+
+/****** FOOTER SECTION ******/
+
+footer {
+    border-top: 3px solid #eeeeee;
+    clear: both;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    font-size: 14px;
+    text-transform: lowercase;
+}
