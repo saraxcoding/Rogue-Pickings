@@ -62,14 +62,14 @@ header nav ul {
 
 header nav ul li {
     color: #77a466;
-    display: inline; /*where the nav moved IN LINE to the header rather than stacked up in the doc flow as a bullet list*/
+    display: inline; 
     font-size: 14px;
     text-transform: uppercase;
 }
 
 header nav ul li a {
 	color:#77a466;
-    text-decoration: none; /*removes underlining under nav links*/
+    text-decoration: none; 
 }
 
 /****** ABOUT SECTION ******/
@@ -101,7 +101,7 @@ header nav ul li a {
 
 .main-title p {
     font-size: 16px;
-    line-height: 25px; /*makes the line-height bigger than font size*/
+    line-height: 25px; 
     padding: 0;
 }
 
@@ -134,7 +134,7 @@ header nav ul li a {
 
 .menu li {
     color: #77a466;
-    padding: 10px 0; /* spaced out the text lines within list */
+    padding: 10px 0; 
 }
 
 .reviews {
